@@ -1,0 +1,27 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>
+      Demo
+    </ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="/home">
+
+      </ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-title>{{timer}}</ion-title>
+  <audio id="audio" controls #audioToPlay autoplay preload="auto">
+    <source src="" type="audio/mpeg">
+    <source src="" type="audio/ogg">
+    <source src="" type="audio/mp3">
+    </audio>
+
+</ion-content>
+
+
+
+
+<!-- <button #button (click)="clicked()">click</button> -->
